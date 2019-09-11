@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="utf-8">
+  <title>YouTube</title>
+  <meta name="author" content="Blen Michil">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="stijl.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <script>
+    function openSlideMenu() {
+      document.getElementById('menu').style.width = '250px';
+      document.getElementById('content').style.marginLeft = '250px';
+    }
+
+    function closeSlideMenu() {
+      document.getElementById('menu').style.width = '0';
+      document.getElementById('content').style.marginLeft = '0';
+    }
+  </script>
+</head>
+
+
+
+
+
+
+
+<body>
+  <nav class="nav">
+
+    <h1 class="nav__brand"><a href="#">You<span>Blen</span></a></h1>
+
+    <div class="nav__search-box">
+      <input class="nav__search-txt" type="text" placeholder="Type to search">
+      <a class="nav__search-btn" href="#">
+        <i class="fas fa-search"></i></a>
+    </div>
+
+
+    <div class="nav__profile-pic">
+      <img class="nav__prof-pic" src="images/face.jpg" alt="BHD">
+    </div>
+
+    <div class="nav__popup-nav">
+
+
+      <div class="nav__slide">
+        <a href="#" onclick="openSlideMenu()">
+          <i class="fas fa-bars"></i>
+        </a>
+      </div>
+
+
+      <div id="menu" class="nav__popup">
+        <a href="#" class="nav__close" onclick="closeSlideMenu()">
+          <i class="fas fa-times"></i>
+        </a>
+        <a href="#">Home</a>
+        <a href="#">Information</a>
+        <a href="#">Video</a>
+        <a href="#">Searchpage</a>
+        <a href="#">SignUp/Login</a>
+      </div>
+    </div>
+
+  </nav>
+
+
+
+
+
+  <div class="nav__left-screen">
+    <div class="nav__sidebar">
+      <ul>
+        <li><a href="#"><i class="fas fa-home"></i><span>Home</span></a></li>
+        <li><a href="#"><i class="fas fa-info-circle"></i><span>Information</span></a></li>
+        <li><a href="#"><i class="fas fa-play-circle"></i><span>Video</span></a></li>
+        <li><a href="#"><i class="fas fa-search"></i><span>Searchpage</span></a></li>
+        <li><a href="#"><i class="fas fa-sign-in-alt"></i><span>SignUp/Login</span></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="home__content">
+    <div class="bhd">
+      <h2>BlastphamousHD</h2>
+      <img src="images/face.jpg" alt="Maurice Bennet">
+      <p>Richard Maurice Stanley Barnett (born: October 16, 1987 [age 31]), better known online as BlastphamousHD (usually abbreviated to BHD), is a American YouTube Reactor, Vlogger, Commentator, and Gamer. </p>
+    </div>
+    <div class="InfograpicShow">
+      <h2>InfograpicShow</h2>
+      <img src="images/infografic.jpg" alt="InfograpicShow">
+      <p>Richard Maurice Stanley Barnett (born: October 16, 1987 [age 31]), better known online as BlastphamousHD (usually abbreviated to BHD), is a American YouTube Reactor, Vlogger, Commentator, and Gamer. </p>
+    </div>
+    <div class="Trap Nation">
+      <h2>Trap Nation</h2>
+      <img src="images/trap.jpg" alt="Trap Nation">
+      <p>Richard Maurice Stanley Barnett (born: October 16, 1987 [age 31]), better known online as BlastphamousHD (usually abbreviated to BHD), is a American YouTube Reactor, Vlogger, Commentator, and Gamer. </p>
+    </div>
+    <div class="LvlCapGaming">
+      <h2>LvlCapGaming</h2>
+      <img src="images/lvlcap.png" alt="LvlCapGaming">
+      <p>Richard Maurice Stanley Barnett (born: October 16, 1987 [age 31]), better known online as BlastphamousHD (usually abbreviated to BHD), is a American YouTube Reactor, Vlogger, Commentator, and Gamer. </p>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="footer__icons">
+      <ul>
+        <li><a href="#" target="blank"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#" target="blank"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#" target="blank"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
+      </ul>
+    </div>
+    <div class="footer__menu">
+      <ul class="footer__nav-items">
+        <li class="footer__item"><a href="#">Home</a></li>
+        <li><a href="#">Information</a></li>
+        <li><a href="#">Video</a></li>
+        <li><a href="#">Searchpage</a></li>
+        <li><a href="#">Signin/up</a></li>
+      </ul>
+
+    </div>
+    <div class="footer__bottem">
+     <p>Design by: <a href="#">Blen Michil</a></p>
+   </div>
+  </footer>
+</body>
+
+</html>
