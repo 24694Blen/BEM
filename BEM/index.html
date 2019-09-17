@@ -30,7 +30,7 @@
 <body>
   <nav class="nav">
 
-    <h1 class="nav__brand"><a href="#">You<span>Blen</span></a></h1>
+    <h1 class="nav__brand"><a class="nav__brand__a" href="#">You<span class="nav__brand__span">Blen</span></a></h1>
 
     <div class="nav__search-box">
       <input class="nav__search-txt" type="text" placeholder="Type to search">
@@ -57,11 +57,11 @@
         <a href="#" class="nav__close" onclick="closeSlideMenu()">
           <i class="fas fa-times"></i>
         </a>
-        <a href="#">Home</a>
-        <a href="#">Information</a>
-        <a href="#">Video</a>
-        <a href="#">Searchpage</a>
-        <a href="#">SignUp/Login</a>
+        <a class="nav__popup__item" href="#">Home</a>
+        <a class="nav__popup__item" href="#">Information</a>
+        <a class="nav__popup__item" href="#">Video</a>
+        <a class="nav__popup__item" href="#">Searchpage</a>
+        <a class="nav__popup__item" href="#">SignUp/Login</a>
       </div>
     </div>
 
@@ -69,63 +69,63 @@
 
 
 
+<!--
+nav left screen side bar -->
 
-
-  <div class="nav__left-screen">
-    <div class="nav__sidebar">
-      <ul>
-        <li><a href="#"><i class="fas fa-home"></i><span>Home</span></a></li>
-        <li><a href="#"><i class="fas fa-info-circle"></i><span>Information</span></a></li>
-        <li><a href="#"><i class="fas fa-play-circle"></i><span>Video</span></a></li>
-        <li><a href="#"><i class="fas fa-search"></i><span>Searchpage</span></a></li>
-        <li><a href="#"><i class="fas fa-sign-in-alt"></i><span>SignUp/Login</span></a></li>
+    <div class="nav-sidebar">
+      <ul class="nav-sidebar__ul">
+        <li class="nav-sidebar__item"><a class="nav-sidebar__a" href="#"><i class="fas fa-home"></i><span class="nav-sidebar__span">Home</span></a></li>
+        <li class="nav-sidebar__item"><a class="nav-sidebar__a" href="#"><i class="fas fa-info-circle"></i><span class="nav-sidebar__span">Information</span></a></li>
+        <li class="nav-sidebar__item"><a class="nav-sidebar__a" href="#"><i class="fas fa-play-circle"></i><span class="nav-sidebar__span">Video</span></a></li>
+        <li class="nav-sidebar__item"><a class="nav-sidebar__a" href="#"><i class="fas fa-search"></i><span class="nav-sidebar__span">Searchpage</span></a></li>
+        <li class="nav-sidebar__item"><a class="nav-sidebar__a" href="#"><i class="fas fa-sign-in-alt"></i><span class="nav-sidebar__span">SignUp/Login</span></a></li>
       </ul>
     </div>
-  </div>
 
-  <div class="home__content">
+
+  <div class="home-content">
     <div class="bhd">
       <h2>BlastphamousHD</h2>
-      <img src="images/face.jpg" alt="Maurice Bennet">
+      <img class="home-content__img" src="images/face.jpg" alt="Maurice Bennet">
       <p>Richard Maurice Stanley Barnett (born: October 16, 1987 [age 31]), better known online as BlastphamousHD (usually abbreviated to BHD), is a American YouTube Reactor, Vlogger, Commentator, and Gamer. </p>
     </div>
     <div class="InfograpicShow">
       <h2>InfograpicShow</h2>
-      <img src="images/infografic.jpg" alt="InfograpicShow">
+      <img class="home-content__img" src="images/infografic.jpg" alt="InfograpicShow">
       <p>Richard Maurice Stanley Barnett (born: October 16, 1987 [age 31]), better known online as BlastphamousHD (usually abbreviated to BHD), is a American YouTube Reactor, Vlogger, Commentator, and Gamer. </p>
     </div>
     <div class="Trap Nation">
       <h2>Trap Nation</h2>
-      <img src="images/trap.jpg" alt="Trap Nation">
+      <img class="home-content__img" src="images/trap.jpg" alt="Trap Nation">
       <p>Richard Maurice Stanley Barnett (born: October 16, 1987 [age 31]), better known online as BlastphamousHD (usually abbreviated to BHD), is a American YouTube Reactor, Vlogger, Commentator, and Gamer. </p>
     </div>
     <div class="LvlCapGaming">
       <h2>LvlCapGaming</h2>
-      <img src="images/lvlcap.png" alt="LvlCapGaming">
+      <img class="home-content__img"src="images/lvlcap.png" alt="LvlCapGaming">
       <p>Richard Maurice Stanley Barnett (born: October 16, 1987 [age 31]), better known online as BlastphamousHD (usually abbreviated to BHD), is a American YouTube Reactor, Vlogger, Commentator, and Gamer. </p>
     </div>
   </div>
   <footer class="footer">
     <div class="footer__icons">
-      <ul>
-        <li><a href="#" target="blank"><i class="fab fa-facebook-f"></i></a></li>
-        <li><a href="#" target="blank"><i class="fab fa-twitter"></i></a></li>
-        <li><a href="#" target="blank"><i class="fab fa-instagram"></i></a></li>
-        <li><a href="#" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
+      <ul class="footer__icon__item">
+        <li class="footer__icon__list"><a class="footer__icon__a" href="#" target="blank"><i class="fab fa-facebook-f"></i></a></li>
+        <li class="footer__icon__list"><a class="footer__icon__a" href="#" target="blank"><i class="fab fa-twitter"></i></a></li>
+        <li class="footer__icon__list"><a class="footer__icon__a" href="#" target="blank"><i class="fab fa-instagram"></i></a></li>
+        <li class="footer__icon__list"><a class="footer__icon__a" href="#" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
       </ul>
     </div>
     <div class="footer__menu">
-      <ul class="footer__nav-items">
-        <li class="footer__item"><a href="#">Home</a></li>
-        <li><a href="#">Information</a></li>
-        <li><a href="#">Video</a></li>
-        <li><a href="#">Searchpage</a></li>
-        <li><a href="#">Signin/up</a></li>
+      <ul class="footer__menu__items">
+        <li class="footer__menu__list"><a class="footer__menu__a" href="#">Home</a></li>
+        <li class="footer__menu__list"><a class="footer__menu__a" href="#">Information</a></li>
+        <li class="footer__menu__list"><a class="footer__menu__a" href="#">Video</a></li>
+        <li class="footer__menu__list"><a class="footer__menu__a" href="#">Searchpage</a></li>
+        <li class="footer__menu__list"><a class="footer__menu__a" href="#">Signin/up</a></li>
       </ul>
 
     </div>
     <div class="footer__bottem">
-     <p>Design by: <a href="#">Blen Michil</a></p>
+     <p class="footer__bottem__p">Design by: <a class="footer__bottem__a" href="#">Blen Michil</a></p>
    </div>
   </footer>
 </body>
